@@ -1,10 +1,10 @@
 ---
 # very dummy defaults
-#ntp_servers:
-#  - 127.0.0.1
+ntp_servers:
+  - 192.168.1.2
 
-#dns_servers:
-#  - 127.0.0.1
+dns_servers:
+  - 192.168.1.2
 
 ssh_timeout: 3600
 
@@ -35,3 +35,4 @@ create_vmotion_iface: false
 vmotion_iface_name: vmk1
 vmotion_portgroup_name: vMotion
 vmotion_subnet_number: 241
+...
