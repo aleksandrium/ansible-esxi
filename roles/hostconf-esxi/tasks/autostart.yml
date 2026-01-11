@@ -1,3 +1,4 @@
+---
 # mostly dealing with autostart now
 
 - name: (autostart) get autostart options list
@@ -58,3 +59,4 @@
 # - get list of vm name to id mappings with `vim-cmd vmsvc/getallvms`
 # - compare and fix autostart entries
 # - most probably will need a module like "service"
+...

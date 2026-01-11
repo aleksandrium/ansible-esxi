@@ -28,3 +28,4 @@ esxi_portgroups:
 vib_list:
   - name: esx-ui
     url: "http://www-distr.m1.maxidom.ru/suse_distr/iso/esxui-signed-6360286.vib"
+...

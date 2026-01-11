@@ -21,3 +21,4 @@ autostart_only_listed: true
 
 # really ok with defaults: "log." + dns_domain
 # syslog_host: log.m0.maxidom.ru
+...

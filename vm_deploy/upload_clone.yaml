@@ -273,3 +273,4 @@
     - name: power on newly registered VM
       shell: "vim-cmd vmsvc/power.on {{ vm_register_res.stdout }}"
       when: do_power_on
+...

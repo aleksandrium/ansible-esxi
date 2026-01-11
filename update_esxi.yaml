@@ -186,3 +186,4 @@
       file:
         dest: "{{ temp_path }}/{{ bundle }}"
         state: absent
+...

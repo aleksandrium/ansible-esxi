@@ -1,3 +1,4 @@
+---
 - name: (users) get users list
   # skip header (first 2 lines), print rest (all fields)
   shell: "esxcli system account list | awk 'NR > 2 && !/^(root|dcui|vpxuser) / {print}'"
@@ -99,3 +100,4 @@
 - name: (users) enable ssh client through firewall
   command: "esxcli network firewall ruleset set --ruleset-id=sshClient --enabled=true"
   when: ssh_ruleset_state.stdout.find("false") != -1
+...

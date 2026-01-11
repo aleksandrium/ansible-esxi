@@ -1,3 +1,4 @@
+---
 - name: reload syslog config
   command: "esxcli system syslog reload"
 
@@ -12,3 +13,4 @@
 
 - name: restart ntpd
   command: "/etc/init.d/ntpd restart"
+...

@@ -1,3 +1,4 @@
+---
 # local datastores to create
 local_datastores:
   "vmhba0:C0:T0:L1": "cage-sys"
@@ -36,4 +37,4 @@ src_vm_name: phoenix11-test
 #src_vm_vol:    infra.data
 #dst_vm_vol:    nest1-m1-storage1
 #dst_vm_net:    adm-srv
-
+...

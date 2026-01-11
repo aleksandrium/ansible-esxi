@@ -1,3 +1,4 @@
+---
 - name: (logging) get loghost settings
   shell: "esxcli system syslog config get | awk '/^   Remote Host:/ {print $3}'"
   register: loghost_res
@@ -43,3 +44,4 @@
     regexp:  "^\\s+<level>[a-z]+</level>$"
     line:     "      <level>info</level>"
   notify: restart hostd
+...

@@ -1,3 +1,4 @@
+---
 - include: hostname.yml
 - include: license.yml
   when: esxi_serial is defined
@@ -10,3 +11,4 @@
 - include: logging.yml
 - include: certs.yml
 - include: software.yml
+...

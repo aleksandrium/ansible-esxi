@@ -1,3 +1,4 @@
+---
 - name: (network) get portgroups list
   # skip header (first 2 lines) and Management, print group, vswitch and vlan tag
   shell: "esxcli network vswitch standard portgroup list | awk -F'  +' 'NR > 2 && !/^(Management Network) / {print $2, $4, $3, $1}'"
@@ -96,3 +97,4 @@
         - ('VMotion' not in vmotion_tag_res.stdout)
 
   when: create_vmotion_iface
+...

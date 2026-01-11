@@ -1,3 +1,4 @@
+---
 # rename "datastore1" -> "(hostname)-sys"
 
 - name: (storage) get filesystems list
@@ -121,3 +122,4 @@
     - devinfo_by_path[item.key].dev not in fsinfo_by_dev
 
 # todo: make LUNs with smartarray: too lazy to parse ssacli output now
+...

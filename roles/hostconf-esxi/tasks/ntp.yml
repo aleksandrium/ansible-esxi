@@ -46,3 +46,4 @@
 - name: (ntp) enable ntpd autostart
   command: "chkconfig ntpd on"
   when: ntpd_autostart_state.rc != 0
+...
